@@ -60,9 +60,29 @@ o After finishing, click File > Exit to close Eclipse IDE.
 
 
 ## PROGRAM:
+int[] arr = {10, 15, 22, 33, 40, 55};
+
+    System.out.println("Even numbers:");
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 == 0) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+
+    System.out.println();
+
+    System.out.println("Odd numbers:");
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 != 0) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
 
 
 ## OUTPUT:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f1d6dcce-e92b-4ea1-95a0-a599ff15106c" />
+
 
 
 ## RESULT:
